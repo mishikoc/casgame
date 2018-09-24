@@ -1,0 +1,110 @@
+.logo { width: 150px; height: 150px; background: url(../images/logo.png) no-repeat; background-size: 150px; }
+.title { text-transform: uppercase; margin-top: 60px;}
+#carusel li{
+   margin: 0px;
+   width: 60px; height:60px;
+   border-radius:60px;
+   display: inline-block;
+   text-align: center;
+   color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:10px;
+    line-height:60px;
+   background: #ff513f;
+  
+  }
+  
+#carusel {
+    position:relative; top: 0px; left:0px; display:block;
+    width: 60px; height:0px;
+    padding: 0px; margin: 0px;
+    
+  }
+.work{
+     overflow:hidden; width: 915px; height:60px; position: relative; 
+  }
+#box img {
+	display: block;
+}
+
+.start { margin-left: 35%; margin-top: 30px; }
+
+.cas_login_popup { left:50%; top:50%;margin-top:-243px; margin-left: -250px; width: 420px; padding:70px 60px 60px 60px; position: fixed; z-index: 1111; background:#FFF; border-radius: 5px; }
+.cas_login_popup .title { font-family: 'ProximaNova-Semibold'; font-size: 30px; color: #444444; text-transform: uppercase; text-align: center; }
+.cas_login_popup p { padding-top: 10px; text-align: center; font-size: 18px; color: #444444; }
+.cas_login_popup .row { width: 420px; padding-top: 13px; position: relative;}
+.cas_login_popup .row input{ font-size: 14px; padding:11px 15px; width: 388px; border:1px solid #d5d9dd; border-radius: 3px; background: #fbfbfd; }
+.cas_login_popup .button { height: 60px; margin-top: 40px; }
+.cas_login_popup .button a { display: block; border-radius: 3px; background: #3267d6; height: 60px; line-height: 60px; font-size: 30px; font-family: 'ProximaNova-Light'; text-align: center; color: #FFF; }
+.cas_login_popup .button a:hover { opacity: 0.9; }
+.cas_login_popup .soc_enter { overflow: hidden; text-align: center; padding-top: 0; font-size: 20px; }
+.cas_login_popup .soc_enter span { display: block; }
+.cas_login_popup .soc_enter a { margin-right: 25px !important; margin-top: -4px; display: inline-block; width: 32px; height: 32px; }
+.cas_login_popup .soc_enter a:last-child { margin-right: 0 !important; }
+.cas_login_popup .soc_enter a:hover { opacity: 0.8; }
+.cas_login_popup .soc_enter.social-login .social_buttons {padding-top: 15px;}
+
+.cas_login_popup.popup_login .icon { left:50%; margin-left: -47px; top:-55px; background: url(../images/popup/login_icon.png) no-repeat; width: 121px; height: 128px; position: absolute; background-size: 88px;}
+.cas_login_popup.popup_login .title {text-transform: none;}
+.cas_login_popup.popup_login p {padding-bottom: 10px;}
+.cas_login_popup.popup_login .check {margin-top: 5px;}
+.cas_login_popup.popup_login .check input {float: left;}
+.cas_login_popup.popup_login .check label {font-size: 14px; padding-top: 3px; display: inline-block; margin-left: 5px;}
+.cas_login_popup.popup_login .button {margin-top: 15px;}
+.cas_login_popup.popup_login a.versegen {font-size: 15px; color: #0050d1; text-decoration: underline; font-family: 'ProximaNova-Light';; text-align: center; display: block; margin: 17px 0 40px 0;}
+.cas_login_popup.popup_login p.rm {font-size: 14px; line-height: 19px;}
+.cas_login_popup.popup_login p.rm a {text-transform: uppercase; color: #0050d1}
+
+.cas_login_popup .row input.show_password, .autodoc_register_popup .row input.show_password{width: 43px; height: 26px; position: absolute; right: 1px; top: 20px; border: none; cursor: pointer; background:url(../images/popup/show_blue.png) no-repeat center center;}
+.cas_login_popup .row input.hide_password, .autodoc_register_popup .row input.hide_password{width: 43px; height: 26px; position: absolute; right: 1px; top: 20px; border: none; cursor: pointer; background:url(../images/popup/hide_blue.png) no-repeat center center;}
+.cas_login_popup~.unsubscribe-overlay #popup_update{top:219px!important;}
+
+/*password popup responsive*/
+@media screen and (max-width: 1367px) {
+    .cas_login_popup.popup_password {padding: 20px 50px 30px 50px;}
+    .cas_login_popup.popup_password select{height: 32px;margin-bottom: 5px;}
+    .cas_login_popup.popup_password .row .arrow{top: 13px;}
+    .cas_login_popup.popup_password .box_kba .col input{padding: 8px 12px;}
+    .cas_login_popup.popup_password .button{margin-top: 20px;}
+    .cas_login_popup .button a{height: 50px;line-height: 50px;}
+    .cas_login_popup .button{height: 50px;}
+    .cas_login_popup.popup_password .title{font-size: 22px;padding-top: 35px;}
+    .cas_login_popup.popup_password p {font-size: 20px;}
+    .cas_login_popup.popup_password .anrede{padding-top: 35px;}
+    .cas_login_popup.popup_password .form{margin-top: 0;padding-top: 25px;}
+    .cas_login_popup.popup_login .row {width:480px;}
+}
+/*/////////////////////////////////////*/
+
+.cas_login_popup.popup_login.pass {padding:45px 0 0 0; width: 540px;}
+.cas_login_popup.popup_login.pass.recovery .icon {background: url("../images/reset_password_pop_icon.png") no-repeat; margin-left: -42px; top: -44px;}
+.cas_login_popup.popup_login.pass .top_info {padding: 0 60px; margin-top: 0;}
+.cas_login_popup.popup_login.pass.recovery .top_info {margin-top: 23px;}
+.cas_login_popup.popup_login.pass a.versegen { margin-bottom: 12px;}
+.cas_login_popup.popup_login.pass .rs_pass {position: relative; padding: 17px 60px 30px 60px; text-align: center;}
+.cas_login_popup.popup_login.pass .rs_pass a.close_remember_pass {display: block; background: url(../images/close_black.png) no-repeat;width: 12px; height: 12px; position: absolute; right: 25px; top: -70px;}
+.cas_login_popup.popup_login.pass a.close_log_on {display: block; background: url(../images/close_black.png) no-repeat;width: 12px; height: 12px; position: absolute; right: 25px; top: 25px;}
+.cas_login_popup.popup_login.pass .rs_pass p.hs {font-size: 14px; line-height: 19px;}
+.cas_login_popup.popup_login.pass .rs_pass a.senden {position: relative; z-index: 2; font-size: 28px; font-family: 'ProximaNova-Light'; display: block; color: #fff; background: #3267d6; height: 64px; line-height: 64px; padding: 0 35px;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; margin-top: 20px;}
+.cas_login_popup.popup_login.pass .rs_pass span.ab_button {position: absolute; font-size: 14px; letter-spacing: -0.2pt; color: #e5e1d5; width: 100%; left: 0; bottom: 55px; z-index: 1;}
+.cas_login_popup.popup_login p.rm {font-size: 14px; line-height: 19px; padding-bottom: 35px;}
+.cas_login_popup.popup_login.pass .rs_pass {
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/*login reset pass popup responsive*/
+@media screen and (max-width: 1367px) {
+    .cas_login_popup.popup_login{padding: 50px 0 0 0;}
+    .cas_login_popup.popup_login .row input{padding: 8px 15px;}
+    .cas_login_popup.popup_login.pass a.versegen{margin-bottom: 5px;margin-top: 10px;}
+    .cas_login_popup.popup_login.pass{padding: 55px 0 0 0;}
+    .cas_login_popup.popup_login.pass .rs_pass{padding: 30px;}
+    .cas_login_popup.popup_login.pass .rs_pass a.senden{margin-top: 15px;}
+    .cas_login_popup.popup_login.pass .rs_pass span.ab_button{bottom: 45px;}
+}
